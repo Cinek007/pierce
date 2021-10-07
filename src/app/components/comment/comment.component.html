@@ -1,0 +1,5 @@
+<div *ngIf="comment">
+  <strong>Comment: </strong>
+  <div>Date: {{ comment.date | date:'medium' }}</div>
+  <div>Content: {{ comment.raw_content }}</div>
+</div>
